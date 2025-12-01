@@ -5,7 +5,7 @@ module.exports = {
     apiKey: process.env.API_KEY || 'hq7IRdRTgjhejhls3ASovR0QtTsAjq0e',
     gotenberg: {
         url: process.env.GOTENBERG_URL || 'https://testesgotenberg.dev.kmelon.com.br',
-        timeout: parseInt(process.env.GOTENBERG_TIMEOUT) || 30000
+        timeout: parseInt(process.env.GOTENBERG_TIMEOUT) || 60000 // Aumentado para 60s
     },
     templates: {
         basePath: process.env.TEMPLATES_PATH || 'templates',
