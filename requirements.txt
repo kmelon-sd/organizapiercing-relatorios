@@ -1,0 +1,1 @@
+python-docx-template==0.17.2
