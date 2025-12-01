@@ -13,6 +13,10 @@ const options = {
         },
         servers: [
             {
+                url: 'https://relatoriosop.dev.kmelon.com.br',
+                description: 'Servidor de produção',
+            },
+            {
                 url: 'http://localhost:3000',
                 description: 'Servidor de desenvolvimento',
             },
